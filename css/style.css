@@ -880,6 +880,16 @@ text-align: center;
 }
 
 
+.btn-comments.button.main-form__btn.left::before{
+    content: url(../images/11.png);
+    width: 100%;
+    position: absolute;
+    top: 4px;
+    left: -111px;
+    z-index: -1;
+}
+
+
 .overlay, .overlay-ask {
   position: fixed;
   display: none;
@@ -1916,7 +1926,7 @@ max-width: 545px;
 
 .din.about-main {
     position: absolute;
-    right: 130px;
+    right: 165px;
     top: 93%;
 }
 
